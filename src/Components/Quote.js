@@ -13,6 +13,7 @@ class Quote extends Component {
       textAlign: 'center',
       display: 'inline-block',
       fontFamily: 'TimesNewRoman',
+      padding: 10,
       width: 1000
     };
   }
@@ -22,7 +23,7 @@ class Quote extends Component {
     return (
       <div>
         <p style={this.quoteStyle}>
-          {this.props.quote}, {this.props.author}
+          {this.props.quote} - {this.props.author}
         </p>
       </div>
     );
