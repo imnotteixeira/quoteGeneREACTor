@@ -9,6 +9,7 @@ class Quote extends Component {
     this.quoteStyle = {
       fontSize: 28,
       border: '2px solid #45aacc',
+      backgroundColor: '#aaddff',
       borderRadius: 10,
       textAlign: 'center',
       display: 'inline-block',
